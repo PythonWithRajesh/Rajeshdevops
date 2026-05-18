@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  Oreo Shake
+{% endblock %}
+
+{% block body %}
+  <div class="container mt-5">
+    <h1 class="text-center mb-5 fw-bold text-dark">🍪 Oreo Special Shakes 🍪</h1>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Oreo 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/oreo1.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Classic Oreo Shake</h3>
+
+            <h4 class="text-success mb-3">₹120</h4>
+
+            <button class="btn btn-dark w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oreo 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/oreo2.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Chocolate Oreo Blast</h3>
+
+            <h4 class="text-success mb-3">₹150</h4>
+
+            <button class="btn btn-primary w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Oreo 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/oreo3.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Premium Oreo Shake</h3>
+
+            <h4 class="text-success mb-3">₹180</h4>
+
+            <button class="btn btn-success w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

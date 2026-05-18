@@ -1,0 +1,181 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Family Pack
+{% endblock %}
+
+{% block body %}
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe6f0, #fff0f5);
+    }
+    
+    .main-title {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 45px;
+      font-weight: bold;
+      color: #c2185b;
+    }
+    
+    .product-container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .card-box {
+      width: 300px;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      transition: 0.4s;
+    }
+    
+    .card-box:hover {
+      transform: translateY(-10px);
+    }
+    
+    .card-box img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    
+    .card-content {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .price {
+      font-size: 24px;
+      color: green;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    
+    .buy-btn {
+      background: #e91e63;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    
+    .buy-btn:hover {
+      background: #ad1457;
+    }
+  </style>
+
+  <h1 class="main-title">🍦 Happy Family Pack 🍦</h1>
+
+  <div class="product-container">
+    <!-- fmypek1 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek1.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 1</h3>
+        <p class="price">₹199</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek2 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek2.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 2</h3>
+        <p class="price">₹290</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek3 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek3.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 3</h3>
+        <p class="price">₹249</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek4 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek4.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 4</h3>
+        <p class="price">₹350</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek5 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek5.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 5</h3>
+        <p class="price">₹899</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek6 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek6.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 6</h3>
+        <p class="price">₹249</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek7 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek7.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 7</h3>
+        <p class="price">₹459</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek8 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek8.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 8</h3>
+        <p class="price">₹380</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek9 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek9.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 9</h3>
+        <p class="price">₹999</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- fmypek10 -->
+    <div class="card-box">
+      <img src="/static/images/fmypek10.jpg" alt="" />
+      <div class="card-content">
+        <h3>Family Pack 10</h3>
+        <p class="price">₹699</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+{% endblock %}

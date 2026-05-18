@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  Mango Delight
+{% endblock %}
+
+{% block body %}
+  <div class="container mt-5">
+    <h1 class="text-center mb-5 fw-bold text-warning">🥭 Mango Delight Collection 🥭</h1>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Mango 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/mango1.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Classic Mango Shake</h3>
+
+            <h4 class="text-success mb-3">₹130</h4>
+
+            <button class="btn btn-warning w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mango 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/mango2.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Mango Ice Cream</h3>
+
+            <h4 class="text-success mb-3">₹160</h4>
+
+            <button class="btn btn-danger w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mango 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/mango3.jpg' %}" class="card-img-top" height="300px" />
+
+          <div class="card-body text-center">
+            <h3 class="fw-bold">Premium Mango Delight</h3>
+
+            <h4 class="text-success mb-3">₹190</h4>
+
+            <button class="btn btn-success w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

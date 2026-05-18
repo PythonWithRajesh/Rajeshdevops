@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}
+
+      {% endblock %}| rajesh devops
+    </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Franchise</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="/about">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="/services" role="button" data-bs-toggle="dropdown">Services</a>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/icecream">Ice Cream 🍧</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/kulfi">Kulfi 🍨</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/badamshake">Badam Shake 🥛</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/faluda">Faluda 🍨</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/hocco">HOCCO 🍦</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/oreo/">Oreo Shake 🍪</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/mango">Mango Delight 🥭</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/coffe">Cold Coffee Shake 🧋</a>
+                </li>
+
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item text-decoration-none text-dark" onmouseover="this.style.backgroundColor='#cceeff'; this.style.color='#007bff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='black';" href="/familypack">🍨 Happy Family Pack 👨‍👩‍👧‍👦💛</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="/contact">contact</a>
+            </li>
+          </ul>
+
+          <!-- Search Form -->
+          <marquee behavior="scroll" direction="left" scrollamount="7" style="color:white; font-weight:bold;">🍦 VR Ice World Franchise - Best Ice Cream - Fresh Taste - 100+ Flavours 🍦</marquee>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    {% block body %}
+
+    {% endblock %}
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

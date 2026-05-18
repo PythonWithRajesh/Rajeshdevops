@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+  <!-- 🍦 HERO TEXT -->
+  <div class="text-center mt-5" style="background: linear-gradient(135deg, #ff4d6d, #ffb347, #6a11cb);
+            padding: 40px;
+            border-radius: 20px;
+            color: white;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.2);">
+    <h1 style="font-size:45px; font-weight:bold;">🍦 Welcome to VR Brothers Ice World Franchise ❄️</h1>
+
+    <p style="font-size:18px;">All Types Ice Cream • Kulfi • Faluda • Hocco • Milkshake • Family Pack</p>
+  </div>
+
+  <!-- 🍨 CATEGORIES -->
+  <div class="container mt-5" style="background: linear-gradient(135deg, #ffecd2, #fcb69f, #ffdde1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.15);">
+    <h2 class="text-center mb-4" style="font-weight:bold; color:#ff4d6d;">🍨 Our Categories</h2>
+
+    <div class="row text-center">
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">🍦 Ice Cream</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">🍢 Kulfi</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">🍨 Faluda</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">🍦 Hocco Ice World</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="" style="font-weight:bold;"></div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">🥤 Milkshake</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="p-4 bg-white shadow rounded" style="font-weight:bold;">👨‍👩‍👧‍👦 Family Pack</div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="" style="font-weight:bold;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔥 FEATURE SECTION -->
+  <div class="container-fluid mt-5 p-5 text-center" style="background:#ffe6f0;">
+    <h2>🏆 Why Choose Us?</h2>
+    <p>
+      ✔ 100% Pure Milk Ice Cream<br />
+      ✔ Fresh Daily Made<br />
+      ✔ 50+ Franchise Locations<br />
+      ✔ Premium Taste
+    </p>
+
+    <a href="/contact" class="btn btn-danger mt-3">Get Franchise</a>
+  </div>
+
+  <!-- 🍦 FOOTER -->
+  <footer class="text-center p-3 mt-4" style="background: linear-gradient(90deg, #ff4d6d, #ffb347);
+color:black;
+font-weight:bold;
+font-size:18px;
+letter-spacing:1px;
+text-shadow:1px 1px 2px rgba(255,255,255,0.6);">
+    © 2026 VR Ice World Franchise | Made with 🍦 Love
+
+    <br /><br />
+
+    <h2>📸 Follow us on Instagram</h2>
+
+    <a href="https://www.instagram.com/lagdhir_rajesh_2212?igsh=ano0NXZyNWJqOWs2" target="_blank" style="color:white; text-decoration:none; display:inline-flex; align-items:center; gap:8px; font-size:20px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+        <path d="M7.75 2C4.6 2 2 4.6 2 7.75v8.5C2 19.4 4.6 22 7.75 22h8.5C19.4 22 22 19.4 22 16.25v-8.5C22 4.6 19.4 2 16.25 2h-8.5zm0 2h8.5C18.3 4 20 5.7 20 7.75v8.5C20 18.3 18.3 20 16.25 20h-8.5C5.7 20 4 18.3 4 16.25v-8.5C4 5.7 5.7 4 7.75 4z" />
+        <path d="M12 6.5A5.5 5.5 0 1 0 12 17.5 5.5 5.5 0 0 0 12 6.5zm0 2A3.5 3.5 0 1 1 12 15.5 3.5 3.5 0 0 1 12 8.5z" />
+        <circle cx="17.5" cy="6.5" r="1.2" />
+      </svg>
+
+      <!-- Your Name -->
+      <span>@lagdhir_rajesh_2212</span>
+    </a>
+  </footer>
+{% endblock %}

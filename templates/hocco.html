@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  HOCCO Ice Cream
+{% endblock %}
+
+{% block body %}
+  <div class="container mt-5">
+    <h1 class="text-center mb-5 fw-bold text-primary">🍦 HOCCO Premium Ice Cream 🍦</h1>
+
+    <div class="row g-4">
+      <!-- Cone 1 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Vanilla Cone</h4>
+
+            <h5 class="text-success mb-3">₹90</h5>
+
+            <button class="btn btn-primary w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 2 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone1.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Chocolate Cone</h4>
+
+            <h5 class="text-success mb-3">₹110</h5>
+
+            <button class="btn btn-dark w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 3 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone2.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Strawberry Cone</h4>
+
+            <h5 class="text-success mb-3">₹120</h5>
+
+            <button class="btn btn-danger w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 4 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone3.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Mango Cone</h4>
+
+            <h5 class="text-success mb-3">₹130</h5>
+
+            <button class="btn btn-warning w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 5 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone4.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Black Current Cone</h4>
+
+            <h5 class="text-success mb-3">₹140</h5>
+
+            <button class="btn btn-secondary w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 6 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone5.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Oreo Cone</h4>
+
+            <h5 class="text-success mb-3">₹150</h5>
+
+            <button class="btn btn-dark w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 7 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone6.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Butterscotch Cone</h4>
+
+            <h5 class="text-success mb-3">₹160</h5>
+
+            <button class="btn btn-info w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cone 8 -->
+      <div class="col-md-3">
+        <div class="card shadow-lg border-0 rounded-4 h-100">
+          <img src="{% static 'images/cone7.jpg' %}" class="card-img-top" height="250px" />
+
+          <div class="card-body text-center">
+            <h4 class="fw-bold">Special HOCCO Cone</h4>
+
+            <h5 class="text-success mb-3">₹180</h5>
+
+            <button class="btn btn-success w-100 rounded-pill">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

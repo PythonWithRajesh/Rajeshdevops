@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+  <!-- 🌈 HERO SECTION -->
+  <div class="container-fluid text-center p-5" style="background: linear-gradient(135deg, #ff4d6d, #ffb347, #6a5acd);
+color:white;">
+    <h1 style="font-size:50px; font-weight:900;">🍦 VR Ice World</h1>
+
+    <p style="font-size:20px;">“Not Just Ice Cream, It’s an Emotion ❄️”</p>
+  </div>
+
+  <!-- ✨ STORY TIMELINE STYLE -->
+  <div class="container mt-5" style="background: linear-gradient(135deg, #dbeafe, #fce7f3, #fff7ed);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.15);">
+    <h2 class="text-center mb-4" style="font-weight:bold; color:#ff4d6d;">📖 Our Journey</h2>
+
+    <div class="p-4 shadow rounded mb-3" style="background:white; border-left:5px solid #ff4d6d;">
+      🚀 <b>Started Small</b> - A single ice cream cart with big dreams.
+    </div>
+
+    <div class="p-4 shadow rounded mb-3" style="background:white; border-left:5px solid #ffb347;">
+      🍦 <b>Growing Taste</b> - People loved our creamy & fresh ice creams.
+    </div>
+
+    <div class="p-4 shadow rounded mb-3" style="background:white; border-left:5px solid #6a11cb;">
+      🏢 <b>Franchise Expansion</b> - Now spreading across multiple cities.
+    </div>
+
+    <div class="p-4 shadow rounded" style="background:white; border-left:5px solid #00c6ff;">
+      🌍 <b>Future Goal</b> - To become India’s No.1 Ice Cream Brand.
+    </div>
+  </div>
+
+  <!-- 🍦 FEATURE CARDS -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">🍨 What Makes Us Special</h2>
+
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow rounded bg-white">
+          ❄️ <h5>Super Fresh</h5>
+          <p>Made daily with pure milk</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow rounded bg-white">
+          🍦 <h5>Premium Taste</h5>
+          <p>Rich & creamy experience</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow rounded bg-white">
+          🏆 <h5>Trusted Brand</h5>
+          <p>Happy customers everywhere</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 💡 BIG QUOTE SECTION -->
+  <div class="container-fluid mt-5 p-5 text-center" style="background: #fff0f5;">
+    <h2 style="font-weight:bold;">“Every Scoop Tells a Story 🍦✨”</h2>
+
+    <p>We don’t just sell ice cream — we create memories.</p>
+  </div>
+
+  <!-- 🚀 FRANCHISE CTA -->
+  <div class="container-fluid mt-5 p-5 text-center" style="background: linear-gradient(135deg, #ff4d6d, #ffb347); color:white;">
+    <h2 style="font-weight:bold;">🚀 Become a Franchise Partner</h2>
+
+    <p>Start your own Ice Cream Business with VR Ice World</p>
+
+    <a href="/contact" class="btn btn-dark mt-3 px-4 py-2">Apply Now 🍦</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center p-3 mt-4 text-white" style="background: linear-gradient(90deg, #1e3a8a, #ff4d6d); font-weight:bold;">
+    © 2026 VR Ice World Franchise | Chill. Eat. Repeat. 🍦❄️
+
+    <br /><br />
+
+    <h2>📸 Follow us on Instagram</h2>
+
+    <a href="https://www.instagram.com/lagdhir_rajesh_2212?igsh=ano0NXZyNWJqOWs2" target="_blank" style="color:white; text-decoration:none; display:inline-flex; align-items:center; gap:8px; font-size:20px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
+        <path d="M7.75 2C4.6 2 2 4.6 2 7.75v8.5C2 19.4 4.6 22 7.75 22h8.5C19.4 22 22 19.4 22 16.25v-8.5C22 4.6 19.4 2 16.25 2h-8.5zm0 2h8.5C18.3 4 20 5.7 20 7.75v8.5C20 18.3 18.3 20 16.25 20h-8.5C5.7 20 4 18.3 4 16.25v-8.5C4 5.7 5.7 4 7.75 4z" />
+        <path d="M12 6.5A5.5 5.5 0 1 0 12 17.5 5.5 5.5 0 0 0 12 6.5zm0 2A3.5 3.5 0 1 1 12 15.5 3.5 3.5 0 0 1 12 8.5z" />
+        <circle cx="17.5" cy="6.5" r="1.2" />
+      </svg>
+
+      <!-- Your Name -->
+      <span>@lagdhir_rajesh_2212</span>
+    </a>
+  </footer>
+{% endblock %}
