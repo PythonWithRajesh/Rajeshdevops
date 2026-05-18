@@ -24,10 +24,10 @@ http://127.0.0.1:8000/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](home.png)
+![Home Page](static/images/home.png)
 
 ### 📩 Contact Page
-![Contact Page](contact.png)
+![Contact Page](static/images/contact.png)
 
 ---
 
