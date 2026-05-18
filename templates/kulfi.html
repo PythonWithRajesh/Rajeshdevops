@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
   Kulfi
@@ -53,6 +54,10 @@
       text-align: center;
     }
     
+    .card-content h3 {
+      font-weight: bold;
+    }
+    
     .price {
       font-size: 24px;
       color: green;
@@ -68,6 +73,7 @@
       border-radius: 10px;
       font-size: 18px;
       transition: 0.3s;
+      width: 100%;
     }
     
     .buy-btn:hover {
@@ -78,72 +84,107 @@
   <h1 class="main-title">🍨 Delicious Kulfi Collection 🍨</h1>
 
   <div class="product-container">
-    <!-- Kulfi 2 -->
+    <!-- Kulfi 1 -->
     <div class="card-box">
-      <img src="/static/images/kulfi1.jpg" alt="" />
+      <img src="{% static 'images/kulfi1.jpg' %}" alt="Kesar Kulfi" />
+
       <div class="card-content">
         <h3>Kesar Kulfi</h3>
+
+        <p class="text-muted">Rich kesar flavored creamy kulfi.</p>
+
         <p class="price">₹90</p>
+
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <!-- Kulfi 2 -->
+    <div class="card-box">
+      <img src="{% static 'images/kulfi2.jpg' %}" alt="Pista Kulfi" />
+
+      <div class="card-content">
+        <h3>Pista Kulfi</h3>
+
+        <p class="text-muted">Premium pista kulfi with dry fruits.</p>
+
+        <p class="price">₹100</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
     <!-- Kulfi 3 -->
     <div class="card-box">
-      <img src="/static/images/kulfi2.jpg" alt="" />
+      <img src="{% static 'images/kulfi3.jpg' %}" alt="Chocolate Kulfi" />
+
       <div class="card-content">
-        <h3>Pista Kulfi</h3>
-        <p class="price">₹100</p>
+        <h3>Chocolate Kulfi</h3>
+
+        <p class="text-muted">Delicious chocolate creamy kulfi delight.</p>
+
+        <p class="price">₹120</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
     <!-- Kulfi 4 -->
     <div class="card-box">
-      <img src="/static/images/kulfi3.jpg" alt="" />
+      <img src="{% static 'images/kulfi4.jpg' %}" alt="Mango Kulfi" />
+
       <div class="card-content">
-        <h3>Chocolate Kulfi</h3>
-        <p class="price">₹120</p>
+        <h3>Mango Kulfi</h3>
+
+        <p class="text-muted">Sweet mango special frozen kulfi.</p>
+
+        <p class="price">₹110</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
     <!-- Kulfi 5 -->
     <div class="card-box">
-      <img src="/static/images/kulfi4.jpg" alt="" />
+      <img src="{% static 'images/kulfi5.jpg' %}" alt="Malai Kulfi" />
+
       <div class="card-content">
-        <h3>Mango Kulfi</h3>
-        <p class="price">₹110</p>
+        <h3>Malai Kulfi</h3>
+
+        <p class="text-muted">Traditional malai kulfi with creamy taste.</p>
+
+        <p class="price">₹95</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
     <!-- Kulfi 6 -->
     <div class="card-box">
-      <img src="/static/images/kulfi5.jpg" alt="" />
+      <img src="{% static 'images/kulfi6.jpg' %}" alt="Strawberry Kulfi" />
+
       <div class="card-content">
-        <h3>Malai Kulfi</h3>
-        <p class="price">₹95</p>
+        <h3>Strawberry Kulfi</h3>
+
+        <p class="text-muted">Fresh strawberry flavored chilled kulfi.</p>
+
+        <p class="price">₹130</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
     <!-- Kulfi 7 -->
     <div class="card-box">
-      <img src="/static/images/kulfi6.jpg" alt="" />
-      <div class="card-content">
-        <h3>Strawberry Kulfi</h3>
-        <p class="price">₹130</p>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-    </div>
+      <img src="{% static 'images/kulfi7.jpg' %}" alt="Dryfruit Kulfi" />
 
-    <!-- Kulfi 8 -->
-    <div class="card-box">
-      <img src="/static/images/kulfi7.jpg" alt="" />
       <div class="card-content">
         <h3>Special Dryfruit Kulfi</h3>
+
+        <p class="text-muted">Loaded with rich dry fruits and nuts.</p>
+
         <p class="price">₹150</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

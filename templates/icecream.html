@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
   Ice Cream
@@ -9,10 +10,10 @@
     <h1 class="text-center mb-5 fw-bold text-danger">🍦 Our Ice Cream Collection 🍦</h1>
 
     <div class="row g-4">
-      <!-- Card 0 -->
+      <!-- Card 1 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="/static/images/ice.jpg" class="card-img-top" height="300px" />
+          <img src="{% static 'images/ice.jpg' %}" class="card-img-top" height="300px" style="object-fit: cover;" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Chocolate Ice Cream</h3>
@@ -26,10 +27,10 @@
         </div>
       </div>
 
-      <!-- Card 1 -->
+      <!-- Card 2 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="/static/images/ice1.jpg" class="card-img-top" height="300px" />
+          <img src="{% static 'images/ice1.jpg' %}" class="card-img-top" height="300px" style="object-fit: cover;" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Vanilla Ice Cream</h3>
@@ -43,10 +44,10 @@
         </div>
       </div>
 
-      <!-- Card 2 -->
+      <!-- Card 3 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="/static/images/ice2.jpg" class="card-img-top" height="300px" />
+          <img src="{% static 'images/ice2.jpg' %}" class="card-img-top" height="300px" style="object-fit: cover;" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Strawberry Ice Cream</h3>
@@ -60,10 +61,10 @@
         </div>
       </div>
 
-      <!-- Card 3 -->
+      <!-- Card 4 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="/static/images/ice3.jpg" class="card-img-top" height="300px" />
+          <img src="{% static 'images/ice3.jpg' %}" class="card-img-top" height="300px" style="object-fit: cover;" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Mango Ice Cream</h3>
@@ -80,7 +81,7 @@
       <!-- Card 5 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="/static/images/ice4.jpg" class="card-img-top" height="300px" />
+          <img src="{% static 'images/ice4.jpg' %}" class="card-img-top" height="300px" style="object-fit: cover;" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Oreo Ice Cream</h3>

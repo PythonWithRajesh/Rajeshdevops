@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
   Family Pack
@@ -53,6 +54,10 @@
       text-align: center;
     }
     
+    .card-content h3 {
+      font-weight: bold;
+    }
+    
     .price {
       font-size: 24px;
       color: green;
@@ -68,6 +73,7 @@
       border-radius: 10px;
       font-size: 18px;
       transition: 0.3s;
+      width: 100%;
     }
     
     .buy-btn:hover {
@@ -78,102 +84,152 @@
   <h1 class="main-title">🍦 Happy Family Pack 🍦</h1>
 
   <div class="product-container">
-    <!-- fmypek1 -->
+    <!-- Family Pack 1 -->
     <div class="card-box">
-      <img src="/static/images/fmypek1.jpg" alt="" />
+      <img src="{% static 'images/fmypek1.jpg' %}" alt="Family Pack 1" />
+
       <div class="card-content">
         <h3>Family Pack 1</h3>
+
+        <p class="text-muted">Delicious mixed flavor family combo.</p>
+
         <p class="price">₹199</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek2 -->
+    <!-- Family Pack 2 -->
     <div class="card-box">
-      <img src="/static/images/fmypek2.jpg" alt="" />
+      <img src="{% static 'images/fmypek2.jpg' %}" alt="Family Pack 2" />
+
       <div class="card-content">
         <h3>Family Pack 2</h3>
+
+        <p class="text-muted">Premium creamy ice cream collection.</p>
+
         <p class="price">₹290</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek3 -->
+    <!-- Family Pack 3 -->
     <div class="card-box">
-      <img src="/static/images/fmypek3.jpg" alt="" />
+      <img src="{% static 'images/fmypek3.jpg' %}" alt="Family Pack 3" />
+
       <div class="card-content">
         <h3>Family Pack 3</h3>
+
+        <p class="text-muted">Chocolate special family treat.</p>
+
         <p class="price">₹249</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek4 -->
+    <!-- Family Pack 4 -->
     <div class="card-box">
-      <img src="/static/images/fmypek4.jpg" alt="" />
+      <img src="{% static 'images/fmypek4.jpg' %}" alt="Family Pack 4" />
+
       <div class="card-content">
         <h3>Family Pack 4</h3>
+
+        <p class="text-muted">Loaded with premium dry fruits.</p>
+
         <p class="price">₹350</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek5 -->
+    <!-- Family Pack 5 -->
     <div class="card-box">
-      <img src="/static/images/fmypek5.jpg" alt="" />
+      <img src="{% static 'images/fmypek5.jpg' %}" alt="Family Pack 5" />
+
       <div class="card-content">
         <h3>Family Pack 5</h3>
+
+        <p class="text-muted">Luxury celebration ice cream pack.</p>
+
         <p class="price">₹899</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek6 -->
+    <!-- Family Pack 6 -->
     <div class="card-box">
-      <img src="/static/images/fmypek6.jpg" alt="" />
+      <img src="{% static 'images/fmypek6.jpg' %}" alt="Family Pack 6" />
+
       <div class="card-content">
         <h3>Family Pack 6</h3>
+
+        <p class="text-muted">Rich creamy vanilla delight pack.</p>
+
         <p class="price">₹249</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek7 -->
+    <!-- Family Pack 7 -->
     <div class="card-box">
-      <img src="/static/images/fmypek7.jpg" alt="" />
+      <img src="{% static 'images/fmypek7.jpg' %}" alt="Family Pack 7" />
+
       <div class="card-content">
         <h3>Family Pack 7</h3>
+
+        <p class="text-muted">Fruity special combo for family.</p>
+
         <p class="price">₹459</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek8 -->
+    <!-- Family Pack 8 -->
     <div class="card-box">
-      <img src="/static/images/fmypek8.jpg" alt="" />
+      <img src="{% static 'images/fmypek8.jpg' %}" alt="Family Pack 8" />
+
       <div class="card-content">
         <h3>Family Pack 8</h3>
+
+        <p class="text-muted">Cool refreshing summer special.</p>
+
         <p class="price">₹380</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek9 -->
+    <!-- Family Pack 9 -->
     <div class="card-box">
-      <img src="/static/images/fmypek9.jpg" alt="" />
+      <img src="{% static 'images/fmypek9.jpg' %}" alt="Family Pack 9" />
+
       <div class="card-content">
         <h3>Family Pack 9</h3>
+
+        <p class="text-muted">Ultimate jumbo family celebration pack.</p>
+
         <p class="price">₹999</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>
 
-    <!-- fmypek10 -->
+    <!-- Family Pack 10 -->
     <div class="card-box">
-      <img src="/static/images/fmypek10.jpg" alt="" />
+      <img src="{% static 'images/fmypek10.jpg' %}" alt="Family Pack 10" />
+
       <div class="card-content">
         <h3>Family Pack 10</h3>
+
+        <p class="text-muted">Special premium assorted ice cream box.</p>
+
         <p class="price">₹699</p>
+
         <button class="buy-btn">Buy Now</button>
       </div>
     </div>

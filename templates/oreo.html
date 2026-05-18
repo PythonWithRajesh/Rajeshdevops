@@ -6,17 +6,19 @@
 {% endblock %}
 
 {% block body %}
-  <div class="container mt-5">
+  <div class="container py-5">
     <h1 class="text-center mb-5 fw-bold text-dark">🍪 Oreo Special Shakes 🍪</h1>
 
     <div class="row g-4 justify-content-center">
       <!-- Oreo 1 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="{% static 'images/oreo1.jpg' %}" class="card-img-top" height="300px" />
+          <img src="{% static 'images/oreo1.jpg' %}" class="card-img-top" height="300px" style="object-fit:cover;" alt="Classic Oreo Shake" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Classic Oreo Shake</h3>
+
+            <p class="text-muted">Creamy Oreo shake with crunchy cookies.</p>
 
             <h4 class="text-success mb-3">₹120</h4>
 
@@ -28,10 +30,12 @@
       <!-- Oreo 2 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="{% static 'images/oreo2.jpg' %}" class="card-img-top" height="300px" />
+          <img src="{% static 'images/oreo2.jpg' %}" class="card-img-top" height="300px" style="object-fit:cover;" alt="Chocolate Oreo Blast" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Chocolate Oreo Blast</h3>
+
+            <p class="text-muted">Rich chocolate mixed with Oreo cookies.</p>
 
             <h4 class="text-success mb-3">₹150</h4>
 
@@ -43,10 +47,12 @@
       <!-- Oreo 3 -->
       <div class="col-md-4">
         <div class="card shadow-lg border-0 rounded-4 h-100">
-          <img src="{% static 'images/oreo3.jpg' %}" class="card-img-top" height="300px" />
+          <img src="{% static 'images/oreo3.jpg' %}" class="card-img-top" height="300px" style="object-fit:cover;" alt="Premium Oreo Shake" />
 
           <div class="card-body text-center">
             <h3 class="fw-bold">Premium Oreo Shake</h3>
+
+            <p class="text-muted">Premium creamy Oreo delight special.</p>
 
             <h4 class="text-success mb-3">₹180</h4>
 

@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
   Badam Shake
@@ -53,6 +54,10 @@
       text-align: center;
     }
     
+    .content h3 {
+      font-weight: bold;
+    }
+    
     .price {
       font-size: 25px;
       color: green;
@@ -68,6 +73,7 @@
       border-radius: 10px;
       font-size: 18px;
       transition: 0.3s;
+      width: 100%;
     }
     
     .btn-buy:hover {
@@ -80,10 +86,12 @@
   <div class="container-box">
     <!-- Card 1 -->
     <div class="card-box">
-      <img src="/static/images/bdmsek1.jpg" />
+      <img src="{% static 'images/bdmsek1.jpg' %}" alt="Badam Shake" />
 
       <div class="content">
         <h3>Classic Badam Shake</h3>
+
+        <p class="text-muted">Creamy almond shake with rich taste.</p>
 
         <p class="price">₹150</p>
 
@@ -93,10 +101,12 @@
 
     <!-- Card 2 -->
     <div class="card-box">
-      <img src="/static/images/bdmsek2.jpg" />
+      <img src="{% static 'images/bdmsek2.jpg' %}" alt="Royal Almond Shake" />
 
       <div class="content">
         <h3>Royal Almond Shake</h3>
+
+        <p class="text-muted">Premium almond milkshake special.</p>
 
         <p class="price">₹200</p>
 
@@ -106,10 +116,12 @@
 
     <!-- Card 3 -->
     <div class="card-box">
-      <img src="/static/images/bdmsek3.jpg" />
+      <img src="{% static 'images/bdmsek3.jpg' %}" alt="Kesar Badam Shake" />
 
       <div class="content">
         <h3>Kesar Badam Shake</h3>
+
+        <p class="text-muted">Saffron flavored rich badam shake.</p>
 
         <p class="price">₹250</p>
 
@@ -119,10 +131,12 @@
 
     <!-- Card 4 -->
     <div class="card-box">
-      <img src="/static/images/bdmsek4.jpg" />
+      <img src="{% static 'images/bdmsek4.jpg' %}" alt="Dryfruit Shake" />
 
       <div class="content">
         <h3>Special Dryfruit Shake</h3>
+
+        <p class="text-muted">Loaded with premium dry fruits.</p>
 
         <p class="price">₹300</p>
 
